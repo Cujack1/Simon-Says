@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- <div class="difficulty-box">
+      <button class="normal" type="button">Normal</button>
+      <button class="medium" type="button">Medium</button>
+      <button class="challenging" type="button">Challenging</button>
+      <button class="hard" type="button">Hard</button>
+      <button class="what" type="button">WHAT!?</button>
+    </div> -->
+    <section class="wrapper">
+      <!-- Tiles are arranged in columns. 
+        Tile 1 is the TOP-left & tile 2 is the BOTTOM-left. 
+         -->
+      <div class="columns">
+        <button class="start-btn" type="button">Start</button>
+        <div class="t1"></div>
+        <div class="t2"></div>
+      </div>
+      <div class="columns">
+        <button class="restart-btn" type="button">Restart</button>
+        <div class="t3"></div>
+        <div class="t4"></div>
+      </div>
+      <!-- Try Again only appears after an incorrect selection -->
+      <div class="try-again-display">
+        <p class="try-again-text">Woops!</p>
+        <button class="try-again-btn" type="button">TRY AGAIN</button>
+      </div>
+    </section>
+    <script src="/index.js"></script>
+  </body>
+</html>
